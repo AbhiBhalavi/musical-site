@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Header</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Add this SVG definition at the start of body -->
+    <svg style="display: none;">
+        <symbol id="ico-instagram" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </symbol>
+    </svg>
+
+    <header>
+        <div class="logo">
+            <i class="fas fa-music"></i>
+            <span>Jammers</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="apply.html" class="apply-link">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="animated-content">
+        <div class="floating-shapes">
+            <img src="https://cdn-icons-png.flaticon.com/512/2995/2995101.png" class="shape" alt="Music Note">
+            <img src="https://cdn-icons-png.flaticon.com/512/4097/4097126.png" class="shape" alt="Headphones">
+            <img src="https://cdn-icons-png.flaticon.com/512/2995/2995102.png" class="shape" alt="Music Wave">
+            <img src="https://cdn-icons-png.flaticon.com/512/7566/7566380.png" class="shape" alt="Vinyl">
+            <img src="https://cdn-icons-png.flaticon.com/512/3039/3039636.png" class="shape" alt="Microphone">
+            <img src="https://cdn-icons-png.flaticon.com/512/2907/2907253.png" class="shape" alt="Guitar">
+            <img src="https://cdn-icons-png.flaticon.com/512/2907/2907237.png" class="shape" alt="Piano">
+            <img src="https://cdn-icons-png.flaticon.com/512/2907/2907247.png" class="shape" alt="Drums">
+        </div>
+        
+        <div class="content-container">
+            <h1 class="title">Welcome to <span>Jammers</span></h1>
+            <p class="subtitle">Where Music Comes Alive</p>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Guitar.png" alt="Guitar">
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-guitar"></i>
+                        <h3>Learn Guitar</h3>
+                        <p>Master the strings with our expert guidance</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Drum.png" alt="Drums">
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-drum"></i>
+                        <h3>Drum Lessons</h3>
+                        <p>Find your rhythm and beat</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Studio%20Microphone.png" alt="Microphone">
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-microphone-alt"></i>
+                        <h3>Vocal Training</h3>
+                        <p>Discover your unique voice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add this right before the carousel div -->
+    <section class="member-section">
+        <!-- Add this floating shapes div right at the start of member-section -->
+        <div class="member-floating-shapes">
+            <img src="https://cdn-icons-png.flaticon.com/512/2995/2995101.png" class="shape" alt="Music Note">
+            <img src="https://cdn-icons-png.flaticon.com/512/4097/4097126.png" class="shape" alt="Headphones">
+            <img src="https://cdn-icons-png.flaticon.com/512/2995/2995102.png" class="shape" alt="Music Wave">
+            <img src="https://cdn-icons-png.flaticon.com/512/7566/7566380.png" class="shape" alt="Vinyl">
+            <img src="https://cdn-icons-png.flaticon.com/512/3039/3039636.png" class="shape" alt="Microphone">
+            <img src="https://cdn-icons-png.flaticon.com/512/2907/2907253.png" class="shape" alt="Guitar">
+        </div>
+
+        <h2 class="section-title">Our <span>Team</span></h2>
+        
+        <!-- Add navigation buttons -->
+        <div class="carousel-nav">
+            <button class="nav-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Your existing carousel div -->
+        <div class="carousel">
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-07 at 20.01.25_2dd33406.jpg" alt="Kavyansh">
+                    <div class="ctitle">Kavyansh Jain <br>External Music Director</div>
+                    <div class="num">01</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/kavyanshkiranjain" target="_blank">
+                            <svg><use xlink:href="#ico-instagram"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.38.16_483e98fa.jpg" alt="Apurv">
+                    <div class="ctitle">Apurv Jain <br>Music Head & Guitarist</div>
+                    <div class="num">02</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/ajvisuall" target="_blank">
+                            <svg><use xlink:href="#ico-instagram"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.31.32_cd4806a4.jpg" alt="Shivansh">
+                    <div class="ctitle">Shivansh <br> Vocalist & Co-Head </div>
+                    <div class="num">03</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/_anything_for_tricolour_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-07 at 19.45.47_ab9c221a.jpg" alt="Aakash">
+                    <div class="ctitle">Aakash <br> Vocal. & Guitarist</div>
+                    <div class="num">04</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/ll.__akashh__.ll?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.15.28_369654f4.jpg" alt="Pragya">
+                    <div class="ctitle">Pragya <br> Vocalist & Girls' Representative</div>
+                    <div class="num">05</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/_.prag.yaayy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="Screenshot_2024-11-09-09-49-18-gg.jpg" alt="Varun">
+                    <div class="ctitle">Varun <br> Vocal. & Guitarist</div>
+                    <div class="num">06</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/varun_vishwakarma__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.32.38_521ddeb0.jpg" alt="Shubham">
+                    <div class="ctitle">Shubham <br> Vocalist & Coordinater</div>
+                    <div class="num">07</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/shubham_m.10?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="IMG_8288.jpg" alt="Devyani">
+                    <div class="ctitle">Devyani <br> Vocalist & Female Coordinater</div>
+                    <div class="num">08</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/devyaniishuklaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 10.22.46_f28b9326.jpg" alt="Gaurav">
+                    <div class="ctitle">Gaurav <br> Vocalist & SongWriter</div>
+                    <div class="num">09</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/gourav_sahite27?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-13 at 11.59.03_c5a27b77.jpg" alt="Kashish">
+                    <div class="ctitle">Kashish <br> Vocal. & Guitarist</div>
+                    <div class="num">10</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/kashishsinghjaiswal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.33.26_3a44c4e2.jpg" alt="Sumedh">
+                    <div class="ctitle">Sumedh <br> Vocalist & Music Composer</div>
+                    <div class="num">11</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/supsumedh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-09 at 11.55.59_1b39476f.jpg" alt="Abhishek">
+                    <div class="ctitle"> Abhishek <br> Vocal. & Guitarist</div>
+                    <div class="num">12</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/i.apsingh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 02.50.04_571d2546.jpg" alt="Muskan">
+                    <div class="ctitle">Muskan <br>Female PR Coordinater </div>
+                    <div class="num">13</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/miss_sen206?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.18.12_f5c9010e.jpg" alt="Titiksha">
+                    <div class="ctitle">Titiksha <br> Classical Vocalist</div>
+                    <div class="num">14</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/laadtitiksha?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-12-04 at 02.43.23_0426cfcb.jpg" alt="Anurag">
+                    <div class="ctitle">Anurag<br>Pianist</div>
+                    <div class="num">15</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/music_lover_anurag?igsh=c2dybno2b2wzOG1q" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-08 at 06.25.37_c0e8c8be.jpg" alt="Hemant">
+                    <div class="ctitle">Hemant <br>Lead Videographar </div>
+                    <div class="num">16</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/mr._.hem?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-07 at 20.02.52_b781f3cd.jpg" alt="Abhi">
+                    <div class="ctitle">Abhi <br> Cinematographer </div>
+                    <div class="num">17</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/abhi_bhalavi_1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-07 at 20.22.09_600a028b.jpg" alt="Aamir">
+                    <div class="ctitle">Aamir <br> Lead Video Editor</div>
+                    <div class="num">18</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/aa_miiiir_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-box">
+                    <img src="WhatsApp Image 2024-11-10 at 07.38.27_08e869a6.jpg" alt="Sandeep">
+                    <div class="ctitle">Sandeep <br>Post-Production Specialist </div>
+                    <div class="num">19</div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/sandeep__29_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><svg><use xlink:href="#ico-instagram"></use></svg></a></div>
+                </div>
+            </div>	
+        </div>
+
+        <!-- Add this tagline div -->
+        <div class="team-tagline">
+            <span class="music-note">♪</span>
+            A Singing Club
+            <span class="music-note">♫</span>
+        </div>
+    </section>
+
+    <!-- Add this after your existing sections, before the footer -->
+    <section class="join-section">
+        <div class="join-content">
+            <h2>Join Our <span>Team</span></h2>
+            <p>Are you passionate about music? We're always looking for talented musicians!</p>
+            
+            <div class="join-cards">
+                <div class="join-card">
+                    <i class="fas fa-guitar"></i>
+                    <h3>Musicians</h3>
+                    <p>Join our band as a musician</p>
+                </div>
+                <div class="join-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Vocalists</h3>
+                    <p>Be part of our vocal team</p>
+                </div>
+                <div class="join-card">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>Producers</h3>
+                    <p>Help create amazing music</p>
+                </div>
+            </div>
+
+            <a href="apply.html" class="join-button">
+                Apply Now
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="live-time" id="live-time"></div>
+                <div class="footer-text">
+                    <p>© 2025 Jammers | Let the Music Play <i class="fas fa-music"></i></p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html
